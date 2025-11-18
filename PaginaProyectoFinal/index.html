@@ -1,41 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="base.css">
+	<link rel="stylesheet" type="text/css" href="estructura.css">
+	<link rel="stylesheet" type="text/css" href="fuentes.css">
+	<link rel="stylesheet" type="text/css" href="cuadricula.css">
+	<script src="script.js" defer></script>
 	<link rel="icon" type="image/png" href="./imágenes/logo.png">
 	<title>Proyecto Final</title>
 </head>
 <body>
+
+	<div id="barra-menu">
+		<a href="./index.html">
+			<img class="estado-inicial" src="./imágenes/icopc.svg">
+		</a>
+		<div>
+			<a class="a-menav a-menav-normal" href="./in_historia.html">Historia</a>
+			<a class="a-menav a-menav-normal" href="./in_juego.html">Juguemos</a>
+		</div>
+	</div>
+
 	<div id="presentacion">
 		<h1 class="titulo">Programación e historia</h1>
 	</div>
+	
 	<div id="principal">
 		<h2 class="subtitulo">Contenido</h2>
 		<div class="cuadricula">
-			<div>
+			<div class="nav-pagina casilla-izd estado-inicial">
 				<img src="./imágenes/historia-programacion.jpg">
 				<p>Conozcamos un poco sobre la historia de la programación</p>
-				<a href="">Ir a historia</a>
+				<a href="./in_historia.html">Ir a historia</a>
 			</div>
-			<div>
+			<div class="nav-pagina casilla-der estado-inicial">
 				<img src="./imágenes/img2.jpg">
 				<p>Vamos a jugar un poco utilizando metodos aprendidos en clase</p>
-				<a href="">Ir a juego</a>
+				<a href="./in_juego.html">Ir a juego</a>
 			</div>
 		</div>
 	</div>
 
 
 	<div id="pie">
-		<div id="izda">
+		<div>
 			<img id="logo-pie" src="./imágenes/logo.png">
 			<h1 id="titulo-pie">Programación e historia</h1>
 		</div>
-		
-		<div id="der">
-			<span>Sitio con fines educativos - Creado por Mateo Pereyra</span>
+
+		<div>
+			<p>Sitio con fines educativos - Creado por Mateo Pereyra</p>
 		</div>
 	</div>
 

@@ -1,0 +1,15 @@
+.titulo{
+	color: #FFFFFFE0;
+	font-size: 4rem;
+	text-shadow: 
+		2px 2px #767A81DE,
+		6px 6px black;
+}
+
+.subtitulo{
+	color: #2F3645;
+	font-size: 3rem;
+	text-shadow: 
+		1px 1px white,
+		2px 2px #767a81de;
+}

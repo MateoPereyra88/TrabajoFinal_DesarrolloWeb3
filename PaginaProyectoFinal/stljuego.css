@@ -1,0 +1,66 @@
+#zona-juego{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: start;
+	gap: 10px;
+	height: 120vh;
+	width: 95vw;
+	/*para que funcione el posicionamiento de las imagenes*/
+	position: relative;
+}
+
+#zona-juego > .hueco
+{
+	color: white;
+	height: 50%;
+	min-width: 15%;
+	width: min-content;
+	background-color: gray;
+	border: 2px solid black;
+	align-content: center;
+	text-align: center;
+}
+
+#zona-juego img{
+	width: auto;
+}
+
+#zona-juego > img{
+	height: 50%;
+	/* las posiciones decorativas se modifican el archivo sc_juego.js */
+	position: absolute;
+}
+
+#zona-juego > .hueco > img{
+	height: 100%;
+	position: static;
+}
+
+#zona-juego > .resultado{
+	background-color: transparent;
+	font-size: 3rem;
+	width: min-content;
+	min-width: 40%;
+	z-index: 1;
+	position: absolute;
+	top: 20%;
+	color: white;
+	text-shadow: 
+		2px 2px lightgrey,
+		6px 6px black;
+	display: none;
+}
+
+/*boton reiniciar*/
+#zona-juego + button
+{
+	background-color: #2F3645;
+	color: white;
+	height: 5vh;
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}

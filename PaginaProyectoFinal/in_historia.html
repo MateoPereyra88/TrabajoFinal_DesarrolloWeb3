@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="base.css">
+	<link rel="stylesheet" type="text/css" href="estructura.css">
+	<link rel="stylesheet" type="text/css" href="fuentes.css">
+	<link rel="stylesheet" type="text/css" href="cuadricula.css">
+	<link rel="stylesheet" type="text/css" href="stlvideo.css">
+	<script src="sc_historia.js" defer></script>
+	<link rel="icon" type="image/png" href="./imágenes/logo.png">
+	<title>Proyecto Final</title>
+</head>
+<body>
+
+	<div id="barra-menu">
+		<a href="./index.html">
+			<img class="estado-inicial" src="./imágenes/icopc.svg">
+		</a>
+		<div>
+			<a class="a-menav a-menav-normal" href="./in_historia.html">Historia</a>
+			<a class="a-menav a-menav-normal" href="./in_juego.html">Juguemos</a>
+		</div>
+	</div>
+
+	<div id="presentacion">
+		<h1 class="titulo">Historia de la programación</h1>
+	</div>
+	
+	<div id="principal">
+		<div class="cuadricula zona-historia">
+			<img class="img-historia casilla-izd estado-inicial" src="./imágenes/principio.jpg">
+			<div class="div-historia casilla-der estado-inicial">
+				<h2 class="subtitulo">El principio de la historia de la programación</h2>
+				<p> 
+					El primer lenguaje de programación fue un algoritmo creado por Ada Lovelace en 1883. <br>
+					Ada Lovelace creó este algoritmo para el motor analítico de Charles Babbage. <br>
+					El propósito de este algoritmo era calcular los números de Bernoulli. <br>
+					En 1936, por primera vez, los códigos informáticos fueron especializados por Alonzo Church y Alan Turing. <br>
+					Church expresó el cálculo lambda de forma formulativa.
+				</p>
+			</div>
+
+			<div class="div-historia casilla-izd estado-inicial">
+				<h2 class="subtitulo">Lenguaje de ensamblaje</h2>
+				<p> 
+					Los primeros ordenadores modernos (alimentados eléctricamente) fueron creados en los años 40. Estas computadoras estaban limitadas en velocidad y capacidad de memoria. <br>
+					Debido a estas limitaciones, los programadores se vieron obligados a escribir manualmente programas en lenguaje ensamblador. Siendo un lenguaje de programación de bajo nivel, era una tarea difícil programarlo manualmente. Los programadores se dieron cuenta entonces de la necesidad de lenguajes de alto nivel para disminuir el esfuerzo que se requería para escribir los programas en lenguaje ensamblador manualmente.
+				</p>
+			</div>
+			<img class="img-historia casilla-der estado-inicial" src="./imágenes/ensamblador.webp">
+
+			<img class="img-historia casilla-izd estado-inicial" src="./imágenes/prim-lenguajes.jpg">
+			<div class="div-historia casilla-der estado-inicial">
+				<h2 class="subtitulo">Los primeros lenguajes de programación</h2>
+				<p> 
+					FORmulaTRANslation es el lenguaje de programación más antiguo y que continúa en uso. Creada por John Backus en 1957, esta herramienta fue desarrollada para la computación científica de alto nivel, matemáticas y estadísticas. <br>
+					A día de hoy, este lenguaje se sigue usando en la industria automovilística, aeroespacial, gubernamental y la investigación. Por ejemplo, es muy útil para el pronóstico de los servicios meteorológicos. <br>
+					En 1959 se desarrollo Cobol, que está detrás de la mayoría de los sistemas de transacciones de negocio de los procesos de las tarjetas de crédito, ATMs (Modo de Transferencia Asíncrona), telefonía, sistemas hospitalarios, gobierno, sistemas automatizados y señales de tráfico. <br>
+					El desarrollo de Cobol, creado por Grace Murray Hopper, muestra un lenguaje famipar y uniforme para transacciones empresariales. Por ejemplo, lo usan en el servicio postal estadounidense. <br>
+					En 1964 se creo Basic, que fue diseñado como un lenguaje simppficado para aquellos que no tenían como base fuertes conocimientos técnicos o matemáticos. <br>
+					Entre 1969 y 1973 se crea C,a manos de Dennis Ritchie para los laboratorios Bell Telephone para usarlos en el sistema Unix. Se le llamó «C» porque sus características derivaban de un lenguaje anterior llamado «B». <br>
+					En los laboratorios Bells, Bjarne Stroustrup modificó el lenguaje C al C++, creando lo que muchos consideran el lenguaje de programación más popular que ha existido nunca. Además, ha sido listado en lo alto de los top ten de los lenguajes de programación desde 1986 y archivado en el Hall of Fame en 2003. Hoy en día es usado por Firefox, Office y Adobe PDF Reader. <br>
+					Esto dio el puntapie a que se sigan perfeccionando los lenguajes hasta llegar al os lenguajes de hoy en dia.
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+	
+	<div id="secundaria">
+		<h2 class="subtitulo">Hablemos un poquito mas...</h2>
+		<div class="zona-video">
+			<video src="./videos/historia-Comp.mp4" poster="./imágenes/img-video.jpg"></video>
+			<div class="barra-reproduccion">
+				<div>
+					<button class="boton-play">
+						<img src="./imágenes/play.svg">
+					</button>
+					<button class="boton-pausa">
+						<img src="./imágenes/pausa.svg">
+					</button>
+				</div>
+				<span class="detalle-tiempo">Tiempo</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="pie">
+		<div>
+			<img id="logo-pie" src="./imágenes/logo.png">
+			<h1 id="titulo-pie">Programación e historia</h1>
+		</div>
+
+		<div>
+			<p>Sitio con fines educativos - Creado por Mateo Pereyra</p>
+		</div>
+	</div>
+
+</body>
+</html>
